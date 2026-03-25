@@ -59,7 +59,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/nabnoey/final-66-53.git',
+                        url: 'https://github.com/664259032-arch/jenkins-docker.git',
                         credentialsId: 'final-66-53'
                     ]]
                 ])

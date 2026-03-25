@@ -3,7 +3,7 @@ services:
     # สร้าง image จาก Dockerfile (โปรเจกต์นี้ไม่มี multi-stage จึงไม่สามารถกำหนด target แบบ builder ได้)
     build:
       context: .
-    container_name: flask-app-dev-instance
+    container_name: aomezzz-dev
     ports:
       - "5002:5000" # map port สำหรับ dev (host:container)
     volumes:
