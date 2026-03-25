@@ -11,7 +11,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_HUB_CREDENTIALS_ID = 'docker-jenkins-test'
+        DOCKER_HUB_CREDENTIALS_ID = '3c2103f1-1319-4ff9-8ff1-c24ef603a364'
         DOCKER_REPO               = "aomezzz007/flask-docker-app"
 
         // DEV / PROD (Local Simulation)
